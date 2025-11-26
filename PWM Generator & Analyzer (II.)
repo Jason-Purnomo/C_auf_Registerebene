@@ -43,7 +43,7 @@ int main(void){
   }
 }
 
-ISR(Timer1_CAPT_vect){
+ISR(TIMER1_CAPT_vect){
   static uint8_t step = 0;
 
   if(step == 0){
